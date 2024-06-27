@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './products-list.component.css'
 })
 export class ProductsListComponent {
-
+  title = 'Products List';
+  selectedProduct = '';
 }

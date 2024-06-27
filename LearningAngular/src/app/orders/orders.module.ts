@@ -9,6 +9,7 @@ import { ProductsModule } from '../products/products.module';
   imports: [
     CommonModule,
     ProductsModule,
-  ]
+  ],
+  
 })
 export class OrdersModule { }
