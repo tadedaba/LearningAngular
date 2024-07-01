@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 export class ProductsListComponent {
   title = 'Products List';
   selectedProduct = '';
+
+  onBuy(name: string){
+    alert(`You just bought ${name}!`);
+  }
+
 }
