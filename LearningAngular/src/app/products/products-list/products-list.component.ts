@@ -9,8 +9,8 @@ export class ProductsListComponent {
   title = 'Products List';
   selectedProduct = '';
 
-  onBuy(name: string){
-    alert(`You just bought ${name}!`);
+  onBuy(){
+    alert(`You just bought ${this.selectedProduct}!`);
   }
 
 }

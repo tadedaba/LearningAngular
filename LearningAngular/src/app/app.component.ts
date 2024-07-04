@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { OrdersModule } from './orders/orders.module';
@@ -16,6 +16,12 @@ import {MatDividerModule} from '@angular/material/divider';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
+export class AppComponent implements OnDestroy{
+  
   title = 'LearningAngular';
+
+
+  ngOnDestroy(): void {
+    
+  }
 }
